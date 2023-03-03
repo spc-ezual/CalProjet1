@@ -1,35 +1,30 @@
-package fr.istic.cal.prettyprinter
+package pretty_printer
 
 import scala.util.Try
-import scala.compiletime.ops.string
 
 /** définition d'une exception pour le cas des listes vides de commandes
   */
 case object ExceptionListeVide extends Exception
 
-/** 
- * UN PRETTY-PRINTER POUR LE LANGAGE WHILE
- * 
+/** UN PRETTY-PRINTER POUR LE LANGAGE WHILE
   */
 object Prettyprinter {
 
-  /** 
-   * définition d'un type pour les spécifications d'indentation
+  /** définition d'un type pour les spécifications d'indentation
     */
   type IndentSpec = List[(String, Int)]
 
-  /** 
-   * définition d'une valeur d'indentation par défaut
+  /** définition d'une valeur d'indentation par défaut
     */
   val indentDefault: Int = 1
 
-  /** 
-   * TRAITEMENT DES EXPRESSIONS DU LANGAGE WHILE
+  /** TRAITEMENT DES EXPRESSIONS DU LANGAGE WHILE
     */
 
-  /** 
-   * @param expression : un AST décrivant une expression du langage WHILE
-    * @return une chaîne représentant la syntaxe concrète de l'expression
+  /** @param expression
+    *   : un AST décrivant une expression du langage WHILE
+    * @return
+    *   une chaîne représentant la syntaxe concrète de l'expression
     */
   // TODO TP2
   def prettyPrintExpr(expression: Expression): String = {
@@ -46,9 +41,8 @@ object Prettyprinter {
 
   }
 
-  /** 
-   * FONCTIONS AUXILIAIRES DE TRAITEMENT DE CHAINES POUR L'INDENTATION DES
-   * COMMANDES OU LA PRESENTATION DU PROGRAMME
+  /** FONCTIONS AUXILIAIRES DE TRAITEMENT DE CHAINES POUR L'INDENTATION DES
+    * COMMANDES OU LA PRESENTATION DU PROGRAMME
     */
 
   /** recherche d'une valeur d'indentation dans une liste de spécifications
@@ -66,23 +60,9 @@ object Prettyprinter {
 
   // TODO TP2
   def indentSearch(context: String, is: IndentSpec): Int = {
-    context match{
-      case "WHILE": String => is match{
-        case Nil => indentDefault
-        case (a,b)::e => if a=="WHILE" then b else indentSearch(context,e) 
-      }
-      case "FOR": String => is match{
-        case Nil => indentDefault
-        case (a,b)::e => if a=="FOR" then b else indentSearch(context,e) 
-      }
-      case "IF": String => is match{
-        case Nil => indentDefault
-        case (a,b)::e => if a=="IF" then b else indentSearch(context,e) 
-      }
-      case "PROGR": String => is match{
-        case Nil => indentDefault
-        case (a,b)::e => if a=="PROGR" then b else indentSearch(context,e) 
-      }
+    is match{
+      case Nil => throw(ExceptionListeVide)
+      case (a,b)::e => if (a==context) b else indentSearch(context,e)
     }
   }
 
@@ -96,7 +76,7 @@ object Prettyprinter {
 
   // TODO TP2
   def makeIndent(n: Int): String = {
-    espaces = ""
+    var espaces = ""
     for (i <-1 to n){ espaces = espaces + " "}
     espaces
   }
@@ -113,13 +93,13 @@ object Prettyprinter {
     */
 
   // TODO TP2
-  def appendStringBeforeAll(pref: String, strings: List[String]): List[String] = {
+  def appendStringBeforeAll(pref: String, strings: List[String]): List[String] ={
     strings match{
-      case head::Nil => pref+head
+      case Nil => throw(ExceptionListeVide)
+      case head::Nil => pref+head::Nil
       case head::tail => pref+head::appendStringBeforeAll(pref,tail)
     }
   }
-
   /** ajout d'une chaîne après chaque élément d'une liste non vide de chaînes
     *
     * @param suff
@@ -132,9 +112,11 @@ object Prettyprinter {
     */
 
   // TODO TP2
-  def appendStringAfterAll(suff: String, strings: List[String]): List[String] ={
+  def appendStringAfterAll(suff: String, strings: List[String]): List[String] =
+    {
     strings match{
-      case head::Nil => head+suff
+      case Nil => throw(ExceptionListeVide)
+      case head::Nil => head+suff::Nil
       case head::tail => head+suff::appendStringAfterAll(suff,tail)
     }
   }
@@ -152,9 +134,13 @@ object Prettyprinter {
     */
 
   // TODO TP2
-  def appendStringAfterLast(suff: String, strings: List[String]): List[String] =
-    strings+suff
+  def appendStringAfterLast(suff: String, strings: List[String]): List[String] ={
+    strings match{
+      case Nil => throw(ExceptionListeVide)
+      case head::Nil => (head+suff)::Nil
+      case head::tail => head::appendStringAfterLast(suff,tail)
     }
+  }
 
   /** ajout d'une chaîne après chaque élément d'une liste non vide de chaînes
     * sauf le dernier
@@ -172,9 +158,10 @@ object Prettyprinter {
   def appendStringAfterAllButLast(
       suff: String,
       strings: List[String]
-  ): List[String] =  {
+  ): List[String] = {
     strings match{
-      case head::Nil => head
+      case Nil => throw(ExceptionListeVide)
+      case head::Nil => head::Nil
       case head::tail => head+suff::appendStringAfterAllButLast(suff,tail)
     }
   }
@@ -190,7 +177,18 @@ object Prettyprinter {
     *   une liste de chaînes représentant la syntaxe concrète de la commande
     */
   // TODO TP2
-  def prettyPrintCommand(command: Command, is: IndentSpec): List[String] = ???
+  def prettyPrintCommand(command: Command, is: IndentSpec): List[String] = {
+    command match{
+      case Nop => List("nop")
+      case Set(variable, expression) => List(variable + " := " + prettyPrintExpr(expression))
+      case For(count, body) => ("for " + count + " do")::(appendStringBeforeAll(makeIndent(indentSearch("FOR",is)),prettyPrintCommands(body,is)):+"od")
+      case While(condition, body) => ("while " + prettyPrintExpr(condition) + " do")::(appendStringBeforeAll(makeIndent(indentSearch("WHILE",is)),prettyPrintCommands(body,is)):+"od")
+      case If(condition,then_commands,else_commands) => ("if " + prettyPrintExpr(condition) + " then")::
+        appendStringBeforeAll(makeIndent(indentSearch("IF",is)),prettyPrintCommands(then_commands,is))::(
+          ("else")::
+            appendStringBeforeAll(makeIndent(indentSearch("IF",is)),prettyPrintCommands(else_commands,is)):+"fi")
+    }
+  }
 
   /** @param commands
     *   : une liste non vide d'AST décrivant une liste non vide de commandes du
@@ -301,3 +299,5 @@ object Prettyprinter {
     *   un arbre de syntaxe abstraite pour ce programme
     */
   def readWhileProgram(s: String): Program = WhileParser.analyserprogram(s)
+
+}
