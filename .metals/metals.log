@@ -451,3 +451,44 @@ WARNING: Unmatched cancel notification for request id 2172
 2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
 2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
 2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:53:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_program.scala
+mars 04, 2023 5:55:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2372
+2023.03.04 17:55:32 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:55:54 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:56:06 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:57:31 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 5:57:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2483
+2023.03.04 17:57:31 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:59:21 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:59:58 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:00:08 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:00:14 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:01:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:02:05 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:02:47 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:03:08 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:04:04 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:04:08 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:05:15 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:06:21 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:08:46 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:09:37 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:09:37 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:10:33 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:11:05 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:11:15 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 6:11:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3064
+2023.03.04 18:11:50 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:13:39 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:13:39 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:13:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_program.scala
+2023.03.04 18:15:50 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:15:51 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:15:51 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:15:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:15:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:15:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 18:15:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala

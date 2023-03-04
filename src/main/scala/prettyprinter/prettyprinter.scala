@@ -212,9 +212,13 @@ object Prettyprinter {
                             headLines ::: tailLines}
     }
   }
-
+  
   /** TRAITEMENT DES PROGRAMMES DU LANGAGE WHILE
     */
+    def getVariableName(v: Variable): String = v match {
+      case Var(name) => name
+      case _          => throw new IllegalArgumentException("Expected Var instance")
+    }
 
   /** @param vars
     *   : une liste non vide décrivant les paramètres d'entrée d'un programme du
@@ -224,15 +228,13 @@ object Prettyprinter {
     *   d'entrée du programme
     */
   // TODO TP2
-  def prettyPrintIn(vars: List[Variable]): String = {
-    vars match {
-      case Nil  => throw ExceptionListeVide
-      case v::Nil => v match {
-        case Var(name) => name
-        case _ => ""}
-      case _   => vars.collect { case Var(name) => name }.mkString(", ")
-    }
-  }
+  def prettyPrintIn(vars: List[Variable]): String = vars match {
+    case Nil          => throw ExceptionListeVide
+    case x :: Nil     => getVariableName(x)
+    case x :: xs      => s"${getVariableName(x)}, ${prettyPrintIn(xs)}"
+}
+
+
   /** @param vars
     *   : une liste non vide décrivant les paramètres de sortie d'un programme
     *   du langage WHILE
@@ -241,7 +243,13 @@ object Prettyprinter {
     *   sortie du programme
     */
   // TODO TP2
-  def prettyPrintOut(vars: List[Variable]): String = ???
+  
+
+  def prettyPrintOut(vars: List[Variable]): String = vars match {
+    case Nil          => throw ExceptionListeVide
+    case x :: Nil     => getVariableName(x)
+    case x :: xs      => s"${getVariableName(x)}, ${prettyPrintOut(xs)}"
+  }
 
   /** @param program
     *   : un AST décrivant un programme du langage WHILE
