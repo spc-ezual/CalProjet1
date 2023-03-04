@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="ROG-marcus" name="pretty_printer.TestsStrings" tests="18" errors="0" failures="1" skipped="0" time="0.014" timestamp="2023-03-04T17:14:28">
+          <properties>
+      <property name="java.specification.version" value="18"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://java.oracle.com/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp850"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-08-18"/><property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp850"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="18.0.2.1+1-1"/><property name="user.name" value="Utilisateur"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="C:\Users\UTILIS~1\AppData\Local\Temp\jna-1082121059\jna15031103257208099328.dll"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\UTILIS~1\AppData\Local\Temp\"/><property name="java.version" value="18.0.2.1"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="sun.os.patch.level" value=""/><property name="native.encoding" value="Cp1252"/><property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python311;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Utilisateur\AppData\Local\Programs\Python\Python311\Lib\site-packages\graphviz;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Users\Utilisateur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Utilisateur\AppData\Local\Programs\Microsoft VS Code\bin;."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="C:\Users\Utilisateur\.sbt\1.0\java9-rt-ext-oracle_corporation_18_0_2_1"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\\bin\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Paris"/><property name="java.vm.specification.version" value="18"/><property name="os.name" value="Windows 10"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="FR"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\Utilisateur"/><property name="user.language" value="fr"/><property name="sbt.ipcsocket.tmpdir" value="C:\Users\UTILIS~1\AppData\Local\Temp\.sbt757e2a8d\ipcsocket"/><property name="swoval.tmpdir" value="C:\Users\UTILIS~1\AppData\Local\Temp\.sbt757e2a8d\swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="user.dir" value="C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="18.0.2.1+1-1"/><property name="java.class.version" value="62.0"/>
+    </properties>
+          <testcase classname="pretty_printer.TestsStrings" name="Test_appendStringBeforeAll_0" time="0.012">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringBeforeAll_1" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringBeforeAll_2" time="0.001">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterAll_0" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterAll_1" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterAll_2" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterLast_0" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterLast_1" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterLast_2" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_makeIndent_1" time="0.001">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_makeIndent_2" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_indentSearch_1" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_indentSearch_2" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_indentSearch_3" time="0.0">
+                      <failure type="pretty_printer.ExceptionListeVide$">pretty_printer.ExceptionListeVide$
+	at pretty_printer.ExceptionListeVide$.&lt;clinit&gt;(prettyprinter.scala:7)
+	at pretty_printer.Prettyprinter$.appendStringBeforeAll(prettyprinter.scala:98)
+	at pretty_printer.TestsStrings.Test_appendStringBeforeAll_0(test_strings.scala:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at com.novocode.junit.JUnitRunner$1.execute(JUnitRunner.java:132)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:147)
+	at sbt.TestRunner.run(TestFramework.scala:162)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:330)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:290)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:330)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:330)
+	at sbt.TestFunction.apply(TestFramework.scala:342)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:435)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterAllButLast_0" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterAllButLast_1" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_appendStringAfterAllButLast_2" time="0.0">
+                      
+                    </testcase><testcase classname="pretty_printer.TestsStrings" name="Test_indentDefault" time="0.0">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

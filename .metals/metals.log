@@ -1,80 +1,81 @@
-2023.03.02 16:52:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marcus/cours/L2/S4/CAL/calprojet1/.metals/lsp.trace.json or /home/marcus/.cache/metals/lsp.trace.json
-2023.03.02 16:52:32 INFO  logging to file /home/marcus/cours/L2/S4/CAL/calprojet1/.metals/metals.log
-2023.03.02 16:52:32 INFO  Started: Metals version 0.11.10 in workspace '/home/marcus/cours/L2/S4/CAL/calprojet1' for client Visual Studio Code 1.74.2.
+2023.03.04 16:46:04 INFO  Started: Metals version 0.11.10+167-add6d4b8-SNAPSHOT in workspace 'C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1' for client Visual Studio Code 1.76.0.
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
-SLF4J: Ignoring binding found at [jar:file:/home/marcus/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Utilisateur/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-2023.03.02 16:52:37 INFO  time: initialize in 5.28s
-2023.03.02 16:52:43 WARN  Build server is not auto-connectable.
-2023.03.02 16:52:43 WARN  no build tool detected in workspace '/home/marcus/cours/L2/S4/CAL/calprojet1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
-2023.03.02 16:52:43 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-2023.03.02 16:53:10 INFO  no build target found for /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.1
-2023.03.02 16:53:26 INFO  time: code lens generation in 35s
-2023.03.02 16:53:26 INFO  time: code lens generation in 43s
-2023.03.02 16:53:26 INFO  time: code lens generation in 33s
-2023.03.02 16:53:59 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-2023.03.02 16:55:42 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-Mar 02, 2023 4:55:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+2023.03.04 16:46:05 INFO  time: initialize in 0.73s
+2023.03.04 16:46:07 WARN  Build server is not auto-connectable.
+2023.03.04 16:46:07 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:46:10 INFO  no build target found for C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.04 16:46:13 INFO  time: code lens generation in 6.23s
+2023.03.04 16:47:20 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:52:39 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:54:49 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 4:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+mars 04, 2023 4:56:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
-Mar 02, 2023 4:57:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 141
-Mar 02, 2023 4:57:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 143
-Mar 02, 2023 4:57:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 144
-Mar 02, 2023 4:57:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 147
-2023.03.02 16:57:27 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-Mar 02, 2023 5:02:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
-WARNING: Notification threw an exception: {
-  "jsonrpc": "2.0",
-  "method": "metals/didFocusTextDocument",
-  "params": [
-    "git:/home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala?%7B%22path%22%3A%22%2Fhome%2Fmarcus%2Fcours%2FL2%2FS4%2FCAL%2Fcalprojet1%2Fsrc%2Ffr%2Fistic%2Fcal%2Fprettyprinter%2Fprettyprinter.scala%22%2C%22ref%22%3A%22~%22%7D"
-  ]
-}
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
-	... 11 more
-Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
-	at java.base/java.nio.file.Path.of(Path.java:212)
-	at java.base/java.nio.file.Paths.get(Paths.java:98)
-	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:119)
-	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
-	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
-	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
-	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1200)
-	... 16 more
+2023.03.04 16:56:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:56:58 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 4:59:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: bad parameter reference CC at typer
+the parameter is type CC in trait SeqOps but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 1, args = ,
+constraint =  uninstantiated variables: 
+ constrained types: 
+ bounds: 
+ ordering: 
+dotty.tools.dotc.core.TypeError: bad parameter reference CC at typer
+the parameter is type CC in trait SeqOps but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 1, args = ,
+constraint =  uninstantiated variables: 
+ constrained types: 
+ bounds: 
+ ordering: 
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2428)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2341)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2359)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2314)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2302)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1379)
+	at dotty.tools.dotc.core.Types$Type.dealias1(Types.scala:1385)
+	at dotty.tools.dotc.core.Types$Type.dealias(Types.scala:1408)
+	at dotty.tools.dotc.transform.TypeUtils$.tupleElementTypes(TypeUtils.scala:71)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$1(RefinedPrinter.scala:221)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:239)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:39)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:306)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.toText(DotcPrinter.scala:90)
+	at scala.meta.internal.pc.printer.DotcPrinter$Std.tpe(DotcPrinter.scala:46)
+	at scala.meta.internal.pc.printer.MetalsPrinter.tpe(MetalsPrinter.scala:76)
+	at scala.meta.internal.pc.printer.MetalsPrinter.defaultMethodSignature(MetalsPrinter.scala:200)
+	at scala.meta.internal.pc.printer.MetalsPrinter.hoverSymbol(MetalsPrinter.scala:102)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:102)
 
-2023.03.02 17:03:00 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-2023.03.02 17:03:51 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-2023.03.02 17:03:55 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/prettyprinter.scala
-2023.03.02 17:04:23 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/syntaxanalyser.scala
-2023.03.02 17:04:29 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/src/fr/istic/cal/prettyprinter/types.scala
-2023.03.02 17:04:36 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/tests/fr/istic/cal/prettyprinter/tests/test_commands.scala
-2023.03.02 17:04:38 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/tests/fr/istic/cal/prettyprinter/tests/test_expressions.scala
-2023.03.02 17:04:40 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/tests/fr/istic/cal/prettyprinter/tests/test_program.scala
-2023.03.02 17:04:41 WARN  no build target for: /home/marcus/cours/L2/S4/CAL/calprojet1/tests/fr/istic/cal/prettyprinter/tests/test_strings.scala
-Mar 02, 2023 5:12:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-2023.03.02 17:13:14 INFO  shutting down Metals
+mars 04, 2023 4:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 371
+2023.03.04 16:59:14 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:59:14 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:59:14 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:59:42 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 16:59:54 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:00:06 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 5:00:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 528
+2023.03.04 17:01:21 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:02:13 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:02:59 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:04:22 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 5:04:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 866
+2023.03.04 17:05:20 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:06:42 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:11:58 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:12:21 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_commands.scala
+2023.03.04 17:14:50 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:14:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
