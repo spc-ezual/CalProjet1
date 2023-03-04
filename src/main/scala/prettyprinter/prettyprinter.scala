@@ -204,7 +204,14 @@ object Prettyprinter {
   def prettyPrintCommands(
       commands: List[Command],
       is: IndentSpec
-  ): List[String] = ???
+  ): List[String] = {
+    commands match{
+      case Nil => Nil
+      case head :: tail =>  {val headLines = prettyPrintCommand(head, is)
+                            val tailLines = prettyPrintCommands(tail, is)
+                            headLines ::: tailLines}
+    }
+  }
 
   /** TRAITEMENT DES PROGRAMMES DU LANGAGE WHILE
     */
@@ -217,8 +224,15 @@ object Prettyprinter {
     *   d'entrée du programme
     */
   // TODO TP2
-  def prettyPrintIn(vars: List[Variable]): String = ???
-
+  def prettyPrintIn(vars: List[Variable]): String = {
+    vars match {
+      case Nil  => throw ExceptionListeVide
+      case v::Nil => v match {
+        case Var(name) => name
+        case _ => ""}
+      case _   => vars.collect { case Var(name) => name }.mkString(", ")
+    }
+  }
   /** @param vars
     *   : une liste non vide décrivant les paramètres de sortie d'un programme
     *   du langage WHILE

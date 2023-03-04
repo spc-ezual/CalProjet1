@@ -79,3 +79,375 @@ WARNING: Unmatched cancel notification for request id 866
 2023.03.04 17:12:21 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_commands.scala
 2023.03.04 17:14:50 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
 2023.03.04 17:14:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 5:31:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1493
+mars 04, 2023 5:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1540
+2023.03.04 17:31:41 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:31:41 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:31:58 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:32:11 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:32:26 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:34:14 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_strings.scala
+2023.03.04 17:34:24 WARN  Using indexes to guess the definition of indentSearch
+2023.03.04 17:34:25 WARN  Using indexes to guess the definition of indentSearch
+2023.03.04 17:34:44 WARN  Using indexes to guess the definition of indentDefault
+2023.03.04 17:34:44 WARN  Using indexes to guess the definition of indentDefault
+2023.03.04 17:35:19 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_strings.scala
+2023.03.04 17:35:19 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_strings.scala
+2023.03.04 17:35:19 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_strings.scala
+2023.03.04 17:35:21 WARN  Using indexes to guess the definition of indentDefault
+2023.03.04 17:35:21 WARN  Using indexes to guess the definition of indentSearch
+2023.03.04 17:35:21 WARN  Using indexes to guess the definition of indentSearch
+2023.03.04 17:39:19 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:39:33 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:42:44 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:44:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:44:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:44:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\syntaxanalyser.scala
+2023.03.04 17:44:57 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\types.scala
+2023.03.04 17:45:17 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\syntaxanalyser.scala
+2023.03.04 17:45:38 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 5:45:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.to*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.to*
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.to*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.to*
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.to*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.to*
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$7(Trees.scala:228)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:229)
+	at scala.meta.Term$AnonymousFunction$.apply(Trees.scala:207)
+	at scala.meta.internal.parsers.ScalametaParser$.$anonfun$scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunction$2(ScalametaParser.scala:4500)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$copyPos(ScalametaParser.scala:4530)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunction(ScalametaParser.scala:4500)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunctionUnlessPostfix(ScalametaParser.scala:4496)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1633)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExpr(ScalametaParser.scala:2348)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsInParens$1(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:613)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:619)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:623)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsInParens(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$2(ScalametaParser.scala:2361)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$3(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2394)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2396)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2393)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2390)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2132)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3646)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3556)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3378)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3357)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4317)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4311)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4303)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4140)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3847)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3839)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3715)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:132)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:102)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:843)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+mars 04, 2023 5:45:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.to*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.to*
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.to*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.to*
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.to*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.to*
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$7(Trees.scala:228)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:229)
+	at scala.meta.Term$AnonymousFunction$.apply(Trees.scala:207)
+	at scala.meta.internal.parsers.ScalametaParser$.$anonfun$scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunction$2(ScalametaParser.scala:4500)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$copyPos(ScalametaParser.scala:4530)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunction(ScalametaParser.scala:4500)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunctionUnlessPostfix(ScalametaParser.scala:4496)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1633)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExpr(ScalametaParser.scala:2348)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsInParens$1(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:613)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:619)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:623)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsInParens(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$2(ScalametaParser.scala:2361)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$3(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2394)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2396)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2393)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2390)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2132)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3646)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3556)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3378)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3357)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4317)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4311)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4303)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4140)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3847)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3839)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3715)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:132)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:102)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:843)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.03.04 17:45:59 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:46:00 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:46:22 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\types.scala
+2023.03.04 17:47:34 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:47:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:47:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:48:10 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 04, 2023 5:49:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2164
+mars 04, 2023 5:49:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2172
+2023.03.04 17:49:37 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:49:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:49:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:49:59 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_program.scala
+2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.04 17:50:53 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
