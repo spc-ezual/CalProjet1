@@ -569,3 +569,28 @@ WARNING: Unmatched cancel notification for request id 808
 2023.03.07 08:28:27 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
 mars 07, 2023 8:29:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.03.07 08:31:22 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_commands.scala
+2023.03.07 08:31:31 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_expressions.scala
+2023.03.07 08:31:41 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_strings.scala
+2023.03.07 08:35:52 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 08:36:16 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_commands.scala
+2023.03.07 08:36:24 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_expressions.scala
+2023.03.07 08:36:46 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_commands.scala
+2023.03.07 08:43:55 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 08:44:27 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\syntaxanalyser.scala
+2023.03.07 08:52:07 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 08:52:09 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 08:52:46 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 08:52:59 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+mars 07, 2023 8:53:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2842
+2023.03.07 08:53:04 WARN  Using indexes to guess the definition of prettyPrintExpr
+2023.03.07 08:53:31 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 08:55:02 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\test\scala\test_commands.scala
+mars 07, 2023 9:05:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3151
+2023.03.07 09:06:01 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 09:06:15 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 09:06:56 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 09:07:13 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala
+2023.03.07 09:11:43 WARN  no build target for: C:\Users\Utilisateur\Desktop\Cours\Univ\L2\Cal\calprojet1\src\main\scala\prettyprinter\prettyprinter.scala

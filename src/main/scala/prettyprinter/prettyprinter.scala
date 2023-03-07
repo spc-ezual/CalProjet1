@@ -213,12 +213,16 @@ object Prettyprinter {
       is: IndentSpec
   ): List[String] = {
     commands match{
-      case Nil => Nil
-      case head :: tail =>  {val headLines = prettyPrintCommand(head, is)
+      case Nil => throw(ExceptionListeVide)
+      case head :: Nil =>  appendStringAfterAllButLast(" ;",prettyPrintCommand(head, is))
+      case head :: tail =>  {val headLines = appendStringAfterAllButLast(" ;",prettyPrintCommand(head, is))
                             val tailLines = prettyPrintCommands(tail, is)
+
                             headLines ::: tailLines}
     }
-  }
+    }
+
+
   
   /** TRAITEMENT DES PROGRAMMES DU LANGAGE WHILE
     */
@@ -265,9 +269,9 @@ object Prettyprinter {
   def prettyPrintProgram(program: Program, is: IndentSpec): List[String] = {
     program match {
     case Progr(ins, body, outs) =>
-      val inStrs = ins.map("read " + _)
+      val inStrs = ins.map("read " + getVariableName(_))
       val bodyStr = prettyPrintCommands(body, is)
-      val outStrs = outs.map("write " + _)
+      val outStrs = outs.map("write " + getVariableName(_))
       inStrs ::: "%" :: bodyStr.flatMap(str => List("", str)) ::: "%" :: outStrs
   }
     

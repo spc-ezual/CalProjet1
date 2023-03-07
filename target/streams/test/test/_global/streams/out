@@ -1,15 +1,15 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsStrings, com.novocode.junit.JUnitFingerprint@e9e7307, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsExpressions, com.novocode.junit.JUnitFingerprint@e9e7307, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsCommands, com.novocode.junit.JUnitFingerprint@e9e7307, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsProgram, com.novocode.junit.JUnitFingerprint@e9e7307, false, [SuiteSelector])[0m
-[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_2[0m failed: expected:<List(for X do,  X := (cons X Y) ;,  Y := (cons Z Y), od)> but was:<List(for X do,  X := (cons X Y),  Y := (cons Z Y), od)>, took 0.003 sec[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsCommands, com.novocode.junit.JUnitFingerprint@7d089535, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsExpressions, com.novocode.junit.JUnitFingerprint@7d089535, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsProgram, com.novocode.junit.JUnitFingerprint@7d089535, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(pretty_printer.TestsStrings, com.novocode.junit.JUnitFingerprint@7d089535, false, [SuiteSelector])[0m
+[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_2[0m failed: expected:<List(for X do,  X := (cons X Y) ;,  Y := (cons Z Y), od)> but was:<List(for X do,  X := (cons X Y),  Y := (cons Z Y), od)>, took 0.004 sec[0m
 [0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_For_4[0m failed: expected:<List(for X do,     X := (cons X Y) ;,     Y := (cons Z Y), od)> but was:<List(for X do,     X := (cons X Y),     Y := (cons Z Y), od)>, took 0.0 sec[0m
 [0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_While_2[0m failed: expected:<List(while X =? Y do,  X := (cons X Y) ;,  Y := (cons Z Y), od)> but was:<List(while X =? Y do,  X := (cons X Y),  Y := (cons Z Y), od)>, took 0.0 sec[0m
 [0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_While_4[0m failed: expected:<List(while X =? Y do,     X := (cons X Y) ;,     Y := (cons Z Y), od)> but was:<List(while X =? Y do,     X := (cons X Y),     Y := (cons Z Y), od)>, took 0.0 sec[0m
-[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_If_1[0m failed: expected:<List(if X =? Y then,  X := (cons X Y) ;,  Y := (cons Z Y), else,  nop, fi)> but was:<List(if X =? Y then,  X := (cons X Y),  Y := (cons Z Y), else,  nop, fi)>, took 0.004 sec[0m
-[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_If_2[0m failed: expected:<List(if X =? Y then,   X := (cons X Y) ;,   Y := (cons Z Y), else,   nop, fi)> but was:<List(if X =? Y then,   X := (cons X Y),   Y := (cons Z Y), else,   nop, fi)>, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_If_1[0m failed: expected:<List(if X =? Y then,  X := (cons X Y) ;,  Y := (cons Z Y), else,  nop, fi)> but was:<List(if X =? Y then,  X := (cons X Y),  Y := (cons Z Y), else,  nop, fi)>, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommand_If_2[0m failed: expected:<List(if X =? Y then,   X := (cons X Y) ;,   Y := (cons Z Y), else,   nop, fi)> but was:<List(if X =? Y then,   X := (cons X Y),   Y := (cons Z Y), else,   nop, fi)>, took 0.005 sec[0m
 [0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_0[0m failed: expected:<List(nop ;, nop)> but was:<List(nop, nop)>, took 0.0 sec[0m
-[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_4[0m failed: expected:<List(X := (cons X Y) ;, Y := (cons Z Y))> but was:<List(X := (cons X Y), Y := (cons Z Y))>, took 0.001 sec[0m
+[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsCommands[0m.[31mTest_prettyPrintCommands_4[0m failed: expected:<List(X := (cons X Y) ;, Y := (cons Z Y))> but was:<List(X := (cons X Y), Y := (cons Z Y))>, took 0.0 sec[0m
 [0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrint_1[0m failed: expected:<read [X[0m
 [0m[[0m[31merror[0m] [0m[0m%[0m
 [0m[[0m[31merror[0m] [0m[0m  Y := nil ;[0m
@@ -23,16 +23,16 @@
 [0m[[0m[31merror[0m] [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0mY := nil[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0mwhile X do[0m
+[0m[[0m[31merror[0m] [0m[0mwhile X do ;[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m     Y := (cons (hd X) Y)[0m
+[0m[[0m[31merror[0m] [0m[0m     Y := (cons (hd X) Y) ;[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m     X := (tl X)[0m
+[0m[[0m[31merror[0m] [0m[0m     X := (tl X) ;[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0mod[0m
 [0m[[0m[31merror[0m] [0m[0m%[0m
 [0m[[0m[31merror[0m] [0m[0mwrite Var(Y)[0m
-[0m[[0m[31merror[0m] [0m[0m]>, took 0.013 sec[0m
+[0m[[0m[31merror[0m] [0m[0m]>, took 0.015 sec[0m
 [0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrint_2[0m failed: expected:<read [X[0m
 [0m[[0m[31merror[0m] [0m[0m%[0m
 [0m[[0m[31merror[0m] [0m[0m Y := nil ;[0m
@@ -46,18 +46,18 @@
 [0m[[0m[31merror[0m] [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0mY := nil[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0mwhile X do[0m
+[0m[[0m[31merror[0m] [0m[0mwhile X do ;[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m Y := (cons (hd X) Y)[0m
+[0m[[0m[31merror[0m] [0m[0m Y := (cons (hd X) Y) ;[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m X := (tl X)[0m
+[0m[[0m[31merror[0m] [0m[0m X := (tl X) ;[0m
 [0m[[0m[31merror[0m] [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0mod[0m
 [0m[[0m[31merror[0m] [0m[0m%[0m
 [0m[[0m[31merror[0m] [0m[0mwrite Var(Y)[0m
 [0m[[0m[31merror[0m] [0m[0m]>, took 0.0 sec[0m
-[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintProgram_1[0m failed: expected:<List(read X, %,   Y := nil ;,   while X do,        Y := (cons (hd X) Y) ;,        X := (tl X),   od, %, write Y)> but was:<List(read Var(X), %, , Y := nil, , while X do, ,      Y := (cons (hd X) Y), ,      X := (tl X), , od, %, write Var(Y))>, took 0.0 sec[0m
-[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintProgram_2[0m failed: expected:<List(read X, %,   Y := nil ;,   while X do,        Y := (cons (hd X) Y) ;,        while X do,             Y := (cons (hd X) Y) ;,             X := (tl X),        od ;,        X := (tl X),   od, %, write Y)> but was:<List(read Var(X), %, , Y := nil, , while X do, ,      Y := (cons (hd X) Y), ,      while X do, ,           Y := (cons (hd X) Y), ,           X := (tl X), ,      od, ,      X := (tl X), , od, %, write Var(Y))>, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintProgram_1[0m failed: expected:<List(read X, %,   Y := nil ;,   while X do,        Y := (cons (hd X) Y) ;,        X := (tl X),   od, %, write Y)> but was:<List(read Var(X), %, , Y := nil, , while X do ;, ,      Y := (cons (hd X) Y) ;, ,      X := (tl X) ;, , od, %, write Var(Y))>, took 0.0 sec[0m
+[0m[[0m[31merror[0m] [0m[0mTest pretty_printer.[33mTestsProgram[0m.[31mTest_prettyPrintProgram_2[0m failed: expected:<List(read X, %,   Y := nil ;,   while X do,        Y := (cons (hd X) Y) ;,        while X do,             Y := (cons (hd X) Y) ;,             X := (tl X),        od ;,        X := (tl X),   od, %, write Y)> but was:<List(read Var(X), %, , Y := nil, , while X do ;, ,      Y := (cons (hd X) Y) ;, ,      while X do ; ;, ,           Y := (cons (hd X) Y) ; ;, ,           X := (tl X) ; ;, ,      od ;, ,      X := (tl X) ;, , od, %, write Var(Y))>, took 0.0 sec[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
 [0m[[0m[31merror[0m] [0m[0mFailed: Total 53, Failed 12, Errors 0, Passed 41[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
