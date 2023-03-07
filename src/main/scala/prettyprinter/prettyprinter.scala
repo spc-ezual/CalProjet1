@@ -60,10 +60,12 @@ object Prettyprinter {
 
   // TODO TP2
   def indentSearch(context: String, is: IndentSpec): Int = {
-    is match{
-      case Nil => throw(ExceptionListeVide)
-      case (a,b)::e => if (a==context) b else indentSearch(context,e)
-    }
+    is match {
+    case Nil => indentDefault
+    case (ctx, indent) :: tail =>
+      if (ctx == context) indent
+      else indentSearch(context, tail)
+  }
   }
 
   /** création d'une indentation
@@ -169,6 +171,11 @@ object Prettyprinter {
   /** TRAITEMENT DES COMMANDES DU LANGAGE WHILE
     */
 
+    
+    def getVariableName(v: Variable): String = v match {
+      case Var(name) => name
+      case _          => throw new IllegalArgumentException("Expected Var instance")
+    }
   /** @param command
     *   : un AST décrivant une commande du langage WHILE
     * @param is
@@ -180,8 +187,8 @@ object Prettyprinter {
   def prettyPrintCommand(command: Command, is: IndentSpec): List[String] = {
     command match{
       case Nop => List("nop")
-      case Set(variable, expression) => List(variable + " := " + prettyPrintExpr(expression))
-      case For(count, body) => ("for " + count + " do")::(appendStringBeforeAll(makeIndent(indentSearch("FOR",is)),prettyPrintCommands(body,is)):+"od")
+      case Set(variable, expression) => List(getVariableName(variable) + " := " + prettyPrintExpr(expression))
+      case For(count, body) => ("for " + prettyPrintExpr(count) + " do")::(appendStringBeforeAll(makeIndent(indentSearch("FOR",is)),prettyPrintCommands(body,is)):+"od")
       case While(condition, body) => ("while " + prettyPrintExpr(condition) + " do")::(appendStringBeforeAll(makeIndent(indentSearch("WHILE",is)),prettyPrintCommands(body,is)):+"od")
       case If(condition, then_commands, else_commands) =>
         val thenBlock = appendStringBeforeAll(makeIndent(indentSearch("IF", is)), prettyPrintCommands(then_commands, is))
@@ -215,10 +222,6 @@ object Prettyprinter {
   
   /** TRAITEMENT DES PROGRAMMES DU LANGAGE WHILE
     */
-    def getVariableName(v: Variable): String = v match {
-      case Var(name) => name
-      case _          => throw new IllegalArgumentException("Expected Var instance")
-    }
 
   /** @param vars
     *   : une liste non vide décrivant les paramètres d'entrée d'un programme du
@@ -259,7 +262,16 @@ object Prettyprinter {
     *   une liste de chaînes représentant la syntaxe concrète du programme
     */
   // TODO TP2
-  def prettyPrintProgram(program: Program, is: IndentSpec): List[String] = ???
+  def prettyPrintProgram(program: Program, is: IndentSpec): List[String] = {
+    program match {
+    case Progr(ins, body, outs) =>
+      val inStrs = ins.map("read " + _)
+      val bodyStr = prettyPrintCommands(body, is)
+      val outStrs = outs.map("write " + _)
+      inStrs ::: "%" :: bodyStr.flatMap(str => List("", str)) ::: "%" :: outStrs
+  }
+    
+  }
 
   /** @param program
     *   : un AST décrivant un programme du langage WHILE
@@ -269,7 +281,9 @@ object Prettyprinter {
     *   une chaîne représentant la syntaxe concrète du programme
     */
   // TODO TP2
-  def prettyPrint(program: Program, is: IndentSpec): String = ???
+  def prettyPrint(program: Program, is: IndentSpec): String = {
+    prettyPrintProgram(program,is).map( _ +"\n").mkString
+  }
 
   val program: Program =
     Progr(
