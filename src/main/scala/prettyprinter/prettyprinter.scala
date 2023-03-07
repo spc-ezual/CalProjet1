@@ -214,10 +214,9 @@ object Prettyprinter {
   ): List[String] = {
     commands match{
       case Nil => throw(ExceptionListeVide)
-      case head :: Nil =>  appendStringAfterAllButLast(" ;",prettyPrintCommand(head, is))
-      case head :: tail =>  {val headLines = appendStringAfterAllButLast(" ;",prettyPrintCommand(head, is))
+      case head :: Nil =>  prettyPrintCommand(head, is)
+      case head :: tail =>  {val headLines = prettyPrintCommand(head, is)
                             val tailLines = prettyPrintCommands(tail, is)
-
                             headLines ::: tailLines}
     }
     }
@@ -286,7 +285,7 @@ object Prettyprinter {
     */
   // TODO TP2
   def prettyPrint(program: Program, is: IndentSpec): String = {
-    prettyPrintProgram(program,is).map( _ +"\n").mkString
+    prettyPrintProgram(program,is).map( _ +"\n").mkString.dropRight(1)
   }
 
   val program: Program =
